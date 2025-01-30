@@ -1,4 +1,4 @@
-﻿SPID,Parent RID,sex,asd,age_months,age_years
+﻿SPID,Parent SPID,sex,asd,age_months,age_years
 SP0013553,R0123452,Male,TRUE,127,10
 SP0013583,R0123452,Female,FALSE,172,14
 SP0018852,R0129172,Female,TRUE,207,17
