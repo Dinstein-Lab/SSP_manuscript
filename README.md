@@ -12,15 +12,14 @@
 </div>
 
   
-# Simons Sleep Project (SSP) Analysis Tools
+# Simons Sleep Project (SSP)
 
 ## Overview
-The Simons Sleep Project (SSP) is a comprehensive open resource designed to accelerate sleep research in autism and other neurodevelopmental conditions. The project contains data collected from 102 autistic adolescents and 98 of their non-autistic siblings, offering unique insights into sleep patterns and their relationship with neurodevelopmental symptoms.
+The Simons Sleep Project (SSP) is a comprehensive open-science resource designed to accelerate sleep research in autism and other neurodevelopmental conditions. The project contains data collected from 102 autistic adolescents and 98 of their non-autistic siblings, offering unique opportunities to study sleep behavior and neurophysiology and their relationship with neurodevelopmental symptoms. All raw and processed data is freely available through the Simons Foundation Autism Research Initiative (SFARI).
 
 ## Dataset Description
 
-### Multi-Device Recording System
-The SSP utilizes three complementary devices selected for their ability to record and save raw sensor-level data:
+The SSP contains recordings from three wearable/nearable devices:
 
 1. **Dreem3 EEG Headband (Beacon Inc.)**
    - Electroencephalogram (EEG) recordings
