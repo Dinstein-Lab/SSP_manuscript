@@ -53,7 +53,7 @@ This Github repository contains data and code that was used to generate all resu
 ## Repository Contents
 
 ### CSV data files
-These files are organized by data type:
+All data analyzed in the manuscript is included, enabling full reproducibility. Files are organized by data type:
 - df_cshq: sleep measures as reported by parents on the cshq questionnaire
 - df_diary: sleep measures as reported by parents on daily sleep diary questions
 - df_dreem: sleep measures extracted from Dreem3 recordings
@@ -68,7 +68,7 @@ These files are organized by data type:
 Files ending in git contain all available recordings. Files ending in clean include data after pre-processing to exclude nights with extreme sleep measures. Pre-processing python code is included in the notebooks directory to clarify criteria for data inclusion and exclusion. 
 
 ### Python Notebooks
-This repository provides Python notebooks and scripts for:
+All analysis were performed with Python code available in the included notebooks. Analysis steps include:
 1. Pre-processing the data - selecting nights with minimun 3 hour of TST, maximum 16 hours of TST, and maximum 3 hours of WASO.
 2. Basic data exploration and visualization of available sleep metrics from the 3 wearable devices.
 3. Comparison of questionnaire and sleep diary data across autism and sibling groups.
