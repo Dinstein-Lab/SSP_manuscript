@@ -52,11 +52,28 @@ This Github repository contains data and code that was used to generate all resu
   
 ## Repository Contents
 
+### CSV data files
+These files are organized by data type:
+- df_cshq: sleep measures as reported by parents on the cshq questionnaire
+- df_diary: sleep measures as reported by parents on daily sleep diary questions
+- df_dreem: sleep measures extracted from Dreem3 recordings
+- df_embrace: sleep measures extracted from EmbracePlus recordings
+- df_withings: sleep measures extracted from Withings recordings
+- df_yasa: sleep measures extracted from raw EEG recordings analyzed with the Yasa sleep staging algorithm
+- df_figure3: raw data from multiple devices in 24 hour recording of a single participant.
+- df_questionnaires: parent reported scores on multiple questionnaires.
+- SSP_participants: demographics data of participants
+- merged_3nights: subset of data from participants who had simultaneous data from all devices in at least 3 nights.
+
+Files ending in git contain all available recordings. Files ending in clean include data after pre-processing to exclude nights with extreme sleep measures. Pre-processing python code is included in the notebooks directory to clarify criteria for data inclusion and exclusion. 
+
+### Python Notebooks
 This repository provides Python notebooks and scripts for:
-1. Basic data exploration and visualization of available sleep metrics from the 3 wearable devices.
-2. Comparison of questionnaire and sleep diary data across autism and sibling groups.
-3. Comparison of device sleep measures across autism and sibling groups.
-4. Examining relationships between objective sleep measures from the devices and subjective sleep measures from questionnaires.
+1. Pre-processing the data - selecting nights with minimun 3 hour of TST, maximum 16 hours of TST, and maximum 3 hours of WASO.
+2. Basic data exploration and visualization of available sleep metrics from the 3 wearable devices.
+3. Comparison of questionnaire and sleep diary data across autism and sibling groups.
+4. Comparison of device sleep measures across autism and sibling groups.
+5. Examining relationships between objective sleep measures from the devices and subjective sleep measures from questionnaires.
 
 Python notebooks are organized according to the analyses presented in the paper with each notebook corresponding to analyses presented in a specific figure.
 
