@@ -65,7 +65,7 @@ All data analyzed in the manuscript is included, enabling full reproducibility. 
 - SSP_participants: demographics data of participants
 - merged_3nights: subset of data from participants who had simultaneous data from all devices in at least 3 nights.
 
-Files ending in git contain all available recordings. Files ending in clean include data after pre-processing to exclude nights with extreme sleep measure values. Pre-processing python code is included in the notebooks directory to clarify criteria for data inclusion and exclusion. 
+Files ending in git contain all available recordings. Files ending in clean include data after pre-processing to exclude nights with extreme sleep measures. Pre-processing python code is included in the notebooks directory to clarify criteria for data inclusion and exclusion. 
 
 ### Python Notebooks
 All analysis were performed with Python code available in the included notebooks. Analysis steps include:
